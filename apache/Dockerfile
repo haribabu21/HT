@@ -1,7 +1,7 @@
 # A basic apache server. To use either add or bind mount content under /var/www
 FROM centos:latest
 
-MAINTAINER CloudVista
+MAINTAINER Googlecloud
 
 RUN yum update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
 
